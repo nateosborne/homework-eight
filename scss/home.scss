@@ -1,0 +1,41 @@
+.content {
+  padding: 50px;
+  font-family: Josefin;
+
+  .products {
+    width: 900px;
+    min-height: 50px;
+    margin: 0 auto;
+
+    .product {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 100px;
+
+      .prod-image {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: url(../images/max.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .prod-image2 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: url(../images/sergio.jpg);
+        background-position: top;
+        background-size: 170%;
+        background-repeat: no-repeat;
+      }
+
+      .prod-desc {
+        width: 500px;
+      }
+    }
+  }
+}
