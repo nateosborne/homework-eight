@@ -2,10 +2,15 @@
   padding: 50px;
   font-family: Josefin;
 
+  h1{
+    font-size: 50px;
+  }
+
   .products {
     width: 900px;
     min-height: 50px;
     margin: 0 auto;
+    margin-top: 50px;
 
     .product {
       display: flex;
@@ -35,6 +40,7 @@
 
       .prod-desc {
         width: 500px;
+
       }
     }
   }

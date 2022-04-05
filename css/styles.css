@@ -93,10 +93,14 @@ footer {
   padding: 50px;
   font-family: Josefin;
 }
+.content h1 {
+  font-size: 50px;
+}
 .content .products {
   width: 900px;
   min-height: 50px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .content .products .product {
   display: -webkit-box;
@@ -161,4 +165,88 @@ footer {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about-content {
+  padding: 50px;
+  font-family: Josefin;
+}
+.about-content .about-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+.about-content .about-product .about-desc {
+  width: 100%;
+  line-height: 30px;
+}
+.about-content .about-product .about-desc h1 {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  font-size: 50px;
+}
+.about-content .about-product .about-desc p {
+  margin-bottom: -80px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+.header h1 {
+  font-family: Josefin;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+.inputs input {
+  width: 800px;
+  height: 50px;
+  margin-bottom: 50px;
+  border-color: #011E3D;
+}
+
+.submit {
+  margin: 0 auto;
+  height: 50px;
+  width: 200px;
+  background-color: #011E3D;
+  border-radius: 100px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.submit p {
+  font-family: Josefin;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
 }

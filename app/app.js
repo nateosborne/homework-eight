@@ -53,9 +53,77 @@ var driversContent = `<div class="hero"></div>
   </div>
 </div>`;
 
-var productsContent = ``;
+var aboutContent = `<div class="hero"></div>
 
-var contactContent = ``;
+<div class="about-content">
+  <div class="about-product">
+    <div class="about-desc">
+      <h1>ABOUT</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+        eum amet culpa, voluptatibus nesciunt tempore odio quidem enim
+        tempora nam beatae ducimus rerum libero excepturi nobis ipsum
+        animi. Soluta, ducimus. Itaque quae corrupti assumenda
+        cupiditate fugiat iste possimus aspernatur dignissimos, dolor
+        quia molestias voluptas laborum neque, ut, sunt maxime nisi?
+        Nisi laudantium aut ea maiores vel, quisquam amet est porro? Ab
+        consequatur nulla consectetur fugit nam, quia ratione rem ut
+        mollitia laborum cumque dicta dolor natus vel culpa assumenda
+        qui optio aspernatur, fugiat sed, inventore saepe placeat
+        voluptatum. Voluptatem, repellendus. Laborum, veniam voluptatum?
+        Qui at ad ea aliquam accusamus atque cumque eius vero voluptatum
+        cum. Quae quasi ipsa eveniet non totam earum alias qui unde
+        dolor similique, illo maxime suscipit. Molestiae, nesciunt esse
+        ex omnis nemo vero modi sed vel maiores assumenda labore est?
+        Ullam eaque dolore, provident enim saepe placeat. Esse animi
+        nulla non! Placeat voluptatibus ea illo tempore. Saepe vel
+        temporibus dicta. Aliquam architecto excepturi eveniet alias
+        doloribus doloremque! Ad et, cumque dolorum delectus quis nisi
+        aut laboriosam ratione, consequatur cum numquam distinctio
+        accusamus exercitationem! Non, placeat! Dolor. Eius ipsa
+        praesentium odit minima! Molestiae, error cupiditate? Ullam rem
+        veritatis deserunt, nulla aliquam minima. Corrupti dolores rerum
+        dolor exercitationem facere velit ut obcaecati quibusdam
+        dignissimos, a reprehenderit voluptatibus consequuntur.
+        Consequatur adipisci animi, voluptatum nisi deserunt fuga sit,
+        possimus aperiam recusandae ducimus eius sequi itaque quaerat
+        quia esse expedita doloremque non aut quae provident impedit
+        architecto labore dolores. A, iste. Amet eaque aspernatur
+        voluptatem labore ipsa fuga repellat, ducimus exercitationem
+        minima laudantium id commodi excepturi temporibus. Repellat
+        vitae aliquam aspernatur maiores, ratione cum doloremque harum
+        quaerat nostrum labore, reprehenderit possimus. Facere, ratione
+        atque beatae, culpa impedit id temporibus neque, voluptate
+        placeat voluptatum dignissimos quia dicta fugiat veniam nostrum
+        a quo. Veniam ratione dolore, tenetur quam dolor ab architecto
+        repudiandae molestiae!
+      </p>
+    </div>
+  </div>
+</div>`;
+
+var contactContent = `<div class="hero"></div>
+
+<div class="header">
+  <h1>CONTACT</h1>
+</div>
+<div class="inputs">
+  <form>
+    <input type="text" id="name" name="name" placeholder="Name" /><br />
+    <input type="text" id="email" name="email" placeholder="Email" />
+    <br />
+    <input
+      type="text"
+      id="msg"
+      name="msg"
+      class="msg"
+      placeholder="Message..."
+    />
+  </form>
+</div>
+<div class="submit">
+  <p>SUBMIT</p>
+</div>`;
 
 function initListeners(){
     $("nav a").click(function(e){
@@ -74,7 +142,7 @@ function initApp(){
     initListeners();
 }
 
-// $(document).ready(function(){
-//     loadPageContent("home");
-//     initApp();
-// });
+$(document).ready(function(){
+    loadPageContent("home");
+    initApp();
+});
